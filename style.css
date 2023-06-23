@@ -1,0 +1,141 @@
+ body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .container {
+     display: flex;
+     justify-content: center;
+     margin-top: 5%;
+ }
+
+ .container h1 {
+     font-size: 55px;
+ }
+
+ .container p {
+     width: 85%;
+ }
+
+ .checkbox-container {
+     display: flex;
+     align-items: center;
+     padding: 10px 0;
+ }
+
+ .checkbox-container span {
+     padding-left: 15px;
+ }
+
+ .input-container {
+     margin-top: 40px;
+ }
+
+ .p {
+     font-weight: 900;
+ }
+
+ .invalid-text-container {
+     display: flex;
+     justify-content: space-between;
+     width: 110%;
+     align-items: center;
+ }
+
+ .valid-text {
+     width: 100%;
+ }
+
+ input {
+     outline: none;
+     width: 80%;
+     padding: 18px 0 18px 15px;
+     border-radius: 10px;
+     border: 1px solid lightgrey;
+    margin-bottom: 20px;
+ }
+
+.sub-button {
+     width: 84%;
+     background-color: #FF9A8B;
+     background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+     border: none;
+     border-radius: 10px;
+     color: #ffffff;
+     font-weight: bold;
+    padding: 18px 0 18px 0px;
+     text-decoration: none;
+     display: inline-block;
+     text-align: center;
+ }
+
+ /* Modal Pop up */
+
+ /* The Modal (background) */
+ .modal {
+     display: none;
+     /* Hidden by default */
+     position: fixed;
+     /* Stay in place */
+     z-index: 1;
+     /* Sit on top */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     background-color: rgb(0, 0, 0);
+     /* Fallback color */
+     background-color: rgba(0, 0, 0, 0.4);
+     /* Black w/ opacity */
+ }
+
+ /* Modal Content/Box */
+ .modal-content {
+     background-color: #fefefe;
+     margin: 15% auto;
+     /* 15% from the top and centered */
+     padding: 50px 30px;
+     border: 1px solid #888;
+     width: 25%;
+     border-radius: 10px;
+     text-align: center;
+     /* Could be more or less, depending on screen size */
+ }
+
+ .modal-content h1 {
+    font-size: 40px;
+ }
+
+ .modal-content .dismiss-text {
+    width: 100%;
+ }
+
+ .modal-content img {
+    width: 60px;
+ }
+ 
+ /* The Close Button */
+ .close {
+     background-color: #FF9A8B;
+     background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+     border: none;
+     border-radius: 10px;
+     color: #ffffff;
+     font-weight: bold;
+     width: 84%;
+     padding: 18px 0 18px 15px;
+     margin-top: 20px;
+ }
+
+ .close:hover,
+ .close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+ }
