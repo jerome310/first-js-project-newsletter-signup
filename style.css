@@ -232,4 +232,12 @@
         width: 50%;
         margin: 0 0 20px 35px;
     }
+
+    input {
+            width: 80%;
+    }
+    
+    .sub-button {
+            width: 84%;
+    }
  }
