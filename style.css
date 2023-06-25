@@ -142,7 +142,53 @@
 
  /* Table Screen Size */
  @media only screen and (max-width: 900px) {
+    .container {
+            display: flex;
+            flex-direction: column-reverse;
+        }
     
+        .right-container svg {
+            display: block;
+            margin: auto;
+            width: 300px;
+        }
+    
+        .left-container {
+            text-align: center;
+        }
+    
+        .left-container h1 {
+            font-size: 40px;
+        }
+    
+        .left-container p {
+            width: 85%;
+            margin: 0 auto;
+        }
+    
+        .check-text {
+            width: 55%;
+            margin: 20px auto;
+        }
+    
+        .checkbox-container {
+            display: flex !important;
+            align-items: flex-start !important;
+        }
+    
+        .invalid-text-container p {
+            text-align: center;
+            width: 100%;
+            margin: 0 0 20px 0px;
+        }
+
+        input {
+            width: 55%;
+        }
+
+        .sub-button {
+            width: 57%;
+        }
  }
 
  /* Mobile Screen Size */
@@ -160,7 +206,6 @@
 
     .left-container {
         text-align: center;
-        /* display: none; */
     }
 
     .left-container h1 {
