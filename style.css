@@ -142,33 +142,7 @@
 
  /* Table Screen Size */
  @media only screen and (max-width: 900px) {
-    .container {
-            display: flex;
-            flex-direction: column-reverse;
-        }
     
-        .right-container svg {
-            width: 100%;
-        }
-    
-        .left-container {
-            text-align: center;
-        }
-    
-        .left-container p {
-            width: 85%;
-            margin: 0 auto;
-        }
-    
-        .check-text {
-            margin: 20px 0 0 65px;
-        }
-    
-        .invalid-text-container {
-            text-align: left;
-            width: 50%;
-            margin: 0 0 20px 55px;
-        }
  }
 
  /* Mobile Screen Size */
@@ -179,11 +153,18 @@
     }
 
     .right-container svg {
-        width: 100%;
+        display: block;
+        margin: auto;
+        width: 300px;
     }
 
     .left-container {
         text-align: center;
+        /* display: none; */
+    }
+
+    .left-container h1 {
+        font-size: 40px;
     }
 
     .left-container p {
@@ -192,12 +173,18 @@
     }
 
     .check-text {
-       margin: 20px 0 0 50px;
+        width: 80%;
+        margin: 20px auto;
     }
 
-    .invalid-text-container {
+    .checkbox-container {
+        display: flex !important;
+        align-items: flex-start !important;
+    }
+
+    .invalid-text-container p {
         text-align: left;
         width: 50%;
-        margin: 0 0 20px 45px;
+        margin: 0 0 20px 35px;
     }
  }
