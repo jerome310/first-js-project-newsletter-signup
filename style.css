@@ -54,10 +54,10 @@
      padding: 18px 0 18px 15px;
      border-radius: 10px;
      border: 1px solid lightgrey;
-    margin-bottom: 20px;
+     margin-bottom: 20px;
  }
 
-.sub-button {
+ .sub-button {
      width: 84%;
      background-color: #FF9A8B;
      background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
@@ -65,7 +65,7 @@
      border-radius: 10px;
      color: #ffffff;
      font-weight: bold;
-    padding: 18px 0 18px 0px;
+     padding: 18px 0 18px 0px;
      text-decoration: none;
      display: inline-block;
      text-align: center;
@@ -109,17 +109,17 @@
  }
 
  .modal-content h1 {
-    font-size: 40px;
+     font-size: 40px;
  }
 
  .modal-content .dismiss-text {
-    width: 100%;
+     width: 100%;
  }
 
  .modal-content img {
-    width: 60px;
+     width: 60px;
  }
- 
+
  /* The Close Button */
  .close {
      background-color: #FF9A8B;
@@ -142,102 +142,106 @@
 
  /* Table Screen Size */
  @media only screen and (max-width: 900px) {
-    .container {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-    
-        .right-container svg {
-            display: block;
-            margin: auto;
-            width: 300px;
-        }
-    
-        .left-container {
-            text-align: center;
-        }
-    
-        .left-container h1 {
-            font-size: 40px;
-        }
-    
-        .left-container p {
-            width: 85%;
-            margin: 0 auto;
-        }
-    
-        .check-text {
-            width: 55%;
-            margin: 20px auto;
-        }
-    
-        .checkbox-container {
-            display: flex !important;
-            align-items: flex-start !important;
-        }
-    
-        .invalid-text-container p {
-            text-align: center;
-            width: 100%;
-            margin: 0 0 20px 0px;
-        }
+     .container {
+         display: flex;
+         flex-direction: column-reverse;
+     }
 
-        input {
-            width: 55%;
-        }
+     .right-container svg {
+         display: block;
+         margin: auto;
+         width: 300px;
+     }
 
-        .sub-button {
-            width: 57%;
-        }
+     .left-container {
+         text-align: center;
+     }
+
+     .left-container h1 {
+         font-size: 40px;
+     }
+
+     .left-container p {
+         width: 85%;
+         margin: 0 auto;
+     }
+
+     .check-text {
+         width: 55%;
+         margin: 20px auto;
+     }
+
+     .checkbox-container {
+         display: flex !important;
+         align-items: flex-start !important;
+     }
+
+     .invalid-text-container p {
+         text-align: center;
+         width: 100%;
+         margin: 0 0 20px 0px;
+     }
+
+     input {
+         width: 55%;
+     }
+
+     .sub-button {
+         width: 57%;
+     }
  }
 
  /* Mobile Screen Size */
  @media only screen and (max-width: 550px) {
-    .container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+     .container {
+         display: flex;
+         flex-direction: column-reverse;
+     }
 
-    .right-container svg {
-        display: block;
-        margin: auto;
-        width: 300px;
-    }
+     .right-container svg {
+         display: block;
+         margin: auto;
+         width: 300px;
+     }
 
-    .left-container {
-        text-align: center;
-    }
+     .left-container {
+         text-align: center;
+     }
 
-    .left-container h1 {
-        font-size: 40px;
-    }
+     .left-container h1 {
+         font-size: 40px;
+     }
 
-    .left-container p {
-        width: 85%;
-        margin: 0 auto;
-    }
+     .left-container p {
+         width: 85%;
+         margin: 0 auto;
+     }
 
-    .check-text {
-        width: 80%;
-        margin: 20px auto;
-    }
+     .check-text {
+         width: 80%;
+         margin: 20px auto;
+     }
 
-    .checkbox-container {
-        display: flex !important;
-        align-items: flex-start !important;
-    }
+     .checkbox-container {
+         display: flex !important;
+         align-items: flex-start !important;
+     }
 
-    .invalid-text-container p {
-        text-align: left;
-        width: 50%;
-        margin: 0 0 20px 35px;
-    }
+     .invalid-text-container p {
+         text-align: left;
+         width: 50%;
+         margin: 0 0 20px 35px;
+     }
 
-    input {
-            width: 80%;
-    }
-    
-    .sub-button {
-            width: 84%;
-    }
+     input {
+         width: 80%;
+     }
+
+     .sub-button {
+         width: 84%;
+     }
+
+     .modal-content {
+         width: 50%;
+     }
  }
