@@ -189,6 +189,10 @@
      .sub-button {
          width: 57%;
      }
+
+    .modal-content {
+        width: 50%;
+    }
  }
 
  /* Mobile Screen Size */
@@ -241,7 +245,11 @@
          width: 84%;
      }
 
+     .modal {
+        width: 91%;
+     }
+
      .modal-content {
-         width: 50%;
+         width: 70%;
      }
  }
